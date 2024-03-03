@@ -10,3 +10,15 @@ The assignment implements a Car Rental System in c++ using object oriented progr
 (2) Condition is given on the scale of 10 by the user based on the Condition of the Car. if $Condition >5$ User_record will inclease as per as calculation and decrease if less than 5.<br>
 (3) Calculation of $Fine = 2*(num)$ where $num$ is No of extra days after Due day.<br>
 (4) No need to Choose your role it will detect automatically from Data base used on your ID.
+
+
+
+
+
+To run the system, type the following commands in the console:
+``` 
+g++ main.cpp -o main
+.\main
+
+There will be already data of 5 Customer,5 Employee,5 Cars and 1 Manager in Database. you can add extra data to it.
+When adding a Customer its Customer_record will automitaclly will be 380 (which is average of 5 Customer). similary 390 for new Employee.
