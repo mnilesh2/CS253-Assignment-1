@@ -7,7 +7,7 @@ vector<vector<string>> content;
 vector<string> toupdate;
 
 void readfile(string fname)
-{ // reference : https://java2blog.com/read-csv-file-in-cpp/
+{ 
     vector<string> row;
     string line, word;
 
@@ -125,22 +125,18 @@ public:
 class Customer : public User
 {
 public:
-    // void display_customer_menu(string id);
-    // void Customer_record();
     friend class Employee;
 };
 
 class Employee : public User
 {
 public:
-    // void display_customer_menu(string id);
-    // void Employee_record();
 };
 
 class Manager : public User
 {
 public:
-    // void display_manager_menu(string id);
+   
 
     void see_all_users(string id);
     void see_all_cars(string id);
@@ -151,7 +147,6 @@ public:
     void update_Car(string id);
     void delete_Car(string id);
     void see_rented_to_user(string id, string Name);
-    // void User_add(string id);
     void see_rented_car(string id, string user_id);
 };
 void User::display_user_menu(string id)
