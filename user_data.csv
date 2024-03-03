@@ -1,0 +1,11 @@
+Rockerz,CUS001,password1,300,1
+Alice Smith,CUS002,password2,300,1
+Michael Johnson,CUS003,password3,630,1
+Emily Brown,CUS004,password4,450,1
+David Wilson,CUS005,password5,340,1
+John Smith,EMP001,password1,450,2
+Alice Johnson,EMP002,password2,200,2
+Michael Brown,EMP003,password3,100,2
+Emily Wilson,EMP004,password4,230,2
+David Lee,EMP005,password5,190,2
+Manager,MAN01,managerpass,0,3
